@@ -1,0 +1,53 @@
+.header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 6px;
+}
+
+.info{
+  padding: 6px;
+  border-left: 1px solid gray ;
+}
+
+.title{
+  color: #32ca99;
+  font-size: 20px;
+}
+
+.type{
+  margin-left: 6px;
+}
+
+.time{
+  color: gray;
+  margin-top: 6px;
+}
+
+.content {
+  padding: 6px;
+}
+
+.detail{
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}
+
+.show{
+  margin-left: 6px;
+  color: #32ca99;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 6px;
+}
+
+.likeNumber{
+  margin-left: 6px;
+}
+
